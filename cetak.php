@@ -1,6 +1,8 @@
 <?php
 
+// ganti ke lokasi dimana anda install mpdf dari composer
 require "/Users/dendybsulistyo/vendor/autoload.php";
+//require "autoload.php";
 
 $mpdf = new \Mpdf\Mpdf();
 
@@ -80,7 +82,7 @@ $html ="
 
   <tr class=item-row>
       <td class=item-name><div class=delete-wpr><textarea>Web Updates</textarea><a class=delete href=javascript:; title='Remove row'>X</a></div></td>
-      <td class=description><textarea>Monthly web updates for http://widgetcorp.com (Nov. 1 - Nov. 30, 2009)</textarea></td>
+      <td class=description>Monthly web updates for http://widgetcorp.com (Nov. 1 - Nov. 30, 2009)</td>
       <td><textarea class=cost>Rp.650.00</textarea></td>
       <td><textarea class=qty>1</textarea></td>
       <td><span class=price>Rp.650.00</span></td>
