@@ -2,10 +2,10 @@
 
 // ganti ke lokasi dimana anda install mpdf dari composer
 require "/Users/dendybsulistyo/vendor/autoload.php";
-//require "autoload.php";
+//require "vendor/autoload.php";
 
-$mpdf = new \Mpdf\Mpdf();
-
+//$mpdf = new \Mpdf\Mpdf();
+$mpdf = new \Mpdf\Mpdf(['orientation' => 'L']);
 
 // awal html
 $html ="
@@ -132,4 +132,8 @@ $html ="
 // akhir html
 
 $mpdf->WriteHTML($html);
+
+//kalau mau pake password, tinggal diaktifkan
+//$mpdf->SetProtection(array(), 'UserPassword', 'ContohPassword');
+
 $mpdf->Output();
