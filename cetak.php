@@ -81,19 +81,19 @@ $html ="
   </tr>
 
   <tr class=item-row>
-      <td class=item-name><div class=delete-wpr><textarea>Web Updates</textarea><a class=delete href=javascript:; title='Remove row'>X</a></div></td>
+      <td class=item-name><div class=delete-wpr>Web Updates<a class=delete href=javascript:; title='Remove row'>X</a></div></td>
       <td class=description>Monthly web updates for http://widgetcorp.com (Nov. 1 - Nov. 30, 2009)</td>
-      <td><textarea class=cost>Rp.650.00</textarea></td>
-      <td><textarea class=qty>1</textarea></td>
+      <td>Rp.650.00</td>
+      <td>1</td>
       <td><span class=price>Rp.650.00</span></td>
   </tr>
 
   <tr class=item-row>
-      <td class=item-name><div class=delete-wpr><textarea>SSL Renewals</textarea><a class=delete href=javascript:; title='Remove row'>X</a></div></td>
+      <td class=item-name><div class=delete-wpr>SSL Renewals<a class=delete href=javascript:; title='Remove row'>X</a></div></td>
 
-      <td class=description><textarea>Yearly renewals of SSL certificates on main domain and several subdomains</textarea></td>
-      <td><textarea class=cost>Rp.75.00</textarea></td>
-      <td><textarea class=qty>3</textarea></td>
+      <td class=description>Yearly renewals of SSL certificates on main domain and several subdomains</td>
+      <td>Rp.75.00</td>
+      <td>3</td>
       <td><span class=price>Rp.225.00</span></td>
   </tr>
 
@@ -122,7 +122,7 @@ $html ="
 </table>
 
 <div id=terms>
-  <h5>Terima Kasih</h5>
+  <h5>http://agmsoftware.id</h5>
 </div>
 
 </div>
