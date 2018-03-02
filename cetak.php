@@ -1,8 +1,8 @@
 <?php
 
 // ganti ke lokasi dimana anda install mpdf dari composer
-require "/Users/dendybsulistyo/vendor/autoload.php";
-//require "vendor/autoload.php";
+//require "/Users/dendybsulistyo/vendor/autoload.php";
+require "vendor/autoload.php";
 
 //$mpdf = new \Mpdf\Mpdf();
 $mpdf = new \Mpdf\Mpdf(['orientation' => 'L']);
